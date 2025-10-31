@@ -1,12 +1,23 @@
 {
   "id": "clockwork-bow-module",
   "title": "Clockwork Bow (Artificer)",
-  "description": "A Foundry v13 + D&D5e 5.1.x compatible mini-module featuring the Clockwork Bow and Wind-Up Mechanism for Artificers, with built-in Midi-QOL + Item Macro automation.",
-  "version": "1.0.4",
-  "authors": [{ "name": "ChatGPT" }],
-  "compatibility": { "minimum": "13", "verified": "13" },
+  "description": "Foundry v13 + D&D5e 5.1.x mini-module: Clockwork Bow + Wind-Up Mechanism with bundled art, flavor text, crafting recipe & time, and Midi-QOL + Item Macro automation preconfigured.",
+  "version": "1.0.5",
+  "authors": [
+    { "name": "ChatGPT" }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
   "systems": [
-    { "id": "dnd5e", "compatibility": { "minimum": "5.1.0", "verified": "5.1.10" } }
+    {
+      "id": "dnd5e",
+      "compatibility": {
+        "minimum": "5.1.0",
+        "verified": "5.1.10"
+      }
+    }
   ],
   "packs": [
     {
@@ -19,6 +30,6 @@
   ],
   "url": "https://github.com/Skysec0230/clockworkbow1.0",
   "manifest": "https://raw.githubusercontent.com/Skysec0230/clockworkbow1.0/main/clockwork-bow-manifest.json",
-  "download": "https://github.com/Skysec0230/clockworkbow1.0/raw/main/clockwork-bow-module-5.1.zip",
+  "download": "https://github.com/Skysec0230/clockworkbow1.0/releases/download/v1.0.5/clockwork-bow-module-ready.zip",
   "readme": "https://raw.githubusercontent.com/Skysec0230/clockworkbow1.0/main/README-clockwork-bow.md"
 }
